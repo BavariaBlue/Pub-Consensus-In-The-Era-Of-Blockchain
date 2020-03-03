@@ -24,10 +24,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
  var c_lTabs=6;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Quality Metrics CP";
- c_rgszSh[1] = "References";
- c_rgszSh[2] = "Quality Metrics Impl";
- c_rgszSh[3] = "ProtocolsANDImplementations";
+ c_rgszSh[0] = "Quality Metrics";
+ c_rgszSh[1] = "References_QM";
+ c_rgszSh[2] = "ProtocolsANDImplementations";
+ c_rgszSh[3] = "Quality Metrics CP";
  c_rgszSh[4] = "OldQM_Impl";
  c_rgszSh[5] = "OLDComparison";
 
@@ -59,7 +59,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[2].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -307,19 +307,19 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>Quality Metrics CP</x:Name>
+    <x:Name>Quality Metrics</x:Name>
     <x:WorksheetSource HRef="index-Dateien/sheet001.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>References</x:Name>
+    <x:Name>References_QM</x:Name>
     <x:WorksheetSource HRef="index-Dateien/sheet002.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Quality Metrics Impl</x:Name>
+    <x:Name>ProtocolsANDImplementations</x:Name>
     <x:WorksheetSource HRef="index-Dateien/sheet003.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>ProtocolsANDImplementations</x:Name>
+    <x:Name>Quality Metrics CP</x:Name>
     <x:WorksheetSource HRef="index-Dateien/sheet004.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
@@ -336,7 +336,7 @@ function fnSetActiveSheet(iSh)
   <x:WindowWidth>23040</x:WindowWidth>
   <x:WindowTopX>0</x:WindowTopX>
   <x:WindowTopY>0</x:WindowTopY>
-  <x:ActiveSheet>2</x:ActiveSheet>
+  <x:ActiveSheet>1</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -344,7 +344,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index-Dateien/sheet003.html" name="frSheet">
+ <frame src="index-Dateien/sheet002.html" name="frSheet">
  <frame src="index-Dateien/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
