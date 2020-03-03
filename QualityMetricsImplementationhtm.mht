@@ -1,0 +1,2179 @@
+MIME-Version: 1.0
+X-Document-Type: Worksheet
+Content-Location: file:///C:/D928AEED/QualityMetricsImplementationhtm.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 15">
+<link rel=3DFile-List href=3D"QualityMetricsImplementationhtm-Dateien/filel=
+ist.xml">
+<style id=3D"ConsensusProtocolsRevisited_6003_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:"\.";}
+.font56003
+	{color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
+.font66003
+	{color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
+.font76003
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
+.font86003
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
+.xl646003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl656003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl666003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl676003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl686003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl696003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl706003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl716003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl726003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl736003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl746003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl756003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl766003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl776003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl786003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl796003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl806003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl816003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#C6E0B4;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl826003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	background:#C6E0B4;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl836003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	background:#C6E0B4;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl846003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	background:#C6E0B4;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl856003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl866003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl876003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl886003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl896003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl906003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl916003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl926003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl936003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl946003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl956003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl966003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl976003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl986003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl996003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl1006003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl1016003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl1026003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl1036003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl1046003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl1056003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl1066003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl1076003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl1086003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl1096003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl1106003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl1116003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl1126003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl1136003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl1146003
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:nowrap;}
+-->
+</style>
+</head>
+
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--Die folgenden Informationen wurden durch den Web-Formular-Assistenten v=
+on
+Microsoft Excel erstellt.-->
+<!--Falls das gleiche Element mit Excel veröffentlicht wird, werden alle
+Informationen zwischen den DIV-Etiketten ersetzt.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id=3D"ConsensusProtocolsRevisited_6003" align=3Dcenter x:publishsource=
+=3D"Excel">
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D2189 style=3D'bor=
+der-collapse:
+ collapse;table-layout:fixed;width:1642pt'>
+ <col class=3Dxl906003 width=3D83 style=3D'width:62pt'>
+ <col class=3Dxl676003 width=3D121 style=3D'mso-width-source:userset;mso-wi=
+dth-alt:
+ 4295;width:91pt'>
+ <col class=3Dxl976003 width=3D480 style=3D'mso-width-source:userset;mso-wi=
+dth-alt:
+ 17066;width:360pt'>
+ <col class=3Dxl976003 width=3D244 span=3D3 style=3D'mso-width-source:users=
+et;
+ mso-width-alt:8675;width:183pt'>
+ <col class=3Dxl976003 width=3D284 style=3D'mso-width-source:userset;mso-wi=
+dth-alt:
+ 10097;width:213pt'>
+ <col class=3Dxl976003 width=3D121 style=3D'mso-width-source:userset;mso-wi=
+dth-alt:
+ 4295;width:91pt'>
+ <col class=3Dxl656003 width=3D92 span=3D4 style=3D'mso-width-source:userse=
+t;
+ mso-width-alt:3271;width:69pt'>
+ <tr height=3D24 style=3D'mso-height-source:userset;height:18.0pt'>
+  <td height=3D24 class=3Dxl906003 width=3D83 style=3D'height:18.0pt;width:=
+62pt'></td>
+  <td class=3Dxl676003 width=3D121 style=3D'width:91pt'></td>
+  <td class=3Dxl976003 width=3D480 style=3D'width:360pt'></td>
+  <td class=3Dxl976003 width=3D244 style=3D'width:183pt'></td>
+  <td class=3Dxl976003 width=3D244 style=3D'width:183pt'></td>
+  <td class=3Dxl976003 width=3D244 style=3D'width:183pt'></td>
+  <td class=3Dxl976003 width=3D284 style=3D'width:213pt'></td>
+  <td class=3Dxl976003 width=3D121 style=3D'width:91pt'></td>
+  <td class=3Dxl656003 width=3D92 style=3D'width:69pt'></td>
+  <td class=3Dxl656003 width=3D92 style=3D'width:69pt'></td>
+  <td class=3Dxl656003 width=3D92 style=3D'width:69pt'></td>
+  <td class=3Dxl656003 width=3D92 style=3D'width:69pt'></td>
+ </tr>
+ <tr class=3Dxl666003 height=3D50 style=3D'mso-height-source:userset;height=
+:37.2pt'>
+  <td height=3D50 class=3Dxl926003 style=3D'height:37.2pt'></td>
+  <td class=3Dxl816003>Group</td>
+  <td class=3Dxl826003>Metric</td>
+  <td class=3Dxl826003>Sub-Metric</td>
+  <td class=3Dxl836003 width=3D244 style=3D'width:183pt'>Parameter Values<b=
+r>
+    Consensus Protocol</td>
+  <td class=3Dxl836003 width=3D244 style=3D'width:183pt'>Parameter Values
+  Implementation</td>
+  <td class=3Dxl836003 width=3D284 style=3D'width:213pt'>Implementation-Onl=
+y<br>
+    Metric</td>
+  <td class=3Dxl846003>Group</td>
+  <td class=3Dxl666003></td>
+  <td class=3Dxl666003></td>
+  <td class=3Dxl666003></td>
+  <td class=3Dxl666003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl976003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl756003>&nbsp;</td>
+  <td class=3Dxl786003>&nbsp;</td>
+  <td class=3Dxl786003>&nbsp;</td>
+  <td class=3Dxl786003>&nbsp;</td>
+  <td class=3Dxl786003>&nbsp;</td>
+  <td class=3Dxl786003>&nbsp;</td>
+  <td class=3Dxl776003>&nbsp;</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td rowspan=3D2 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>Network Size</td>
+  <td class=3Dxl966003>Number of nodes [2] [4] [6] [7] [8] [10] [11] [12]</=
+td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td class=3Dxl966003>Number (upper bound)</td>
+  <td class=3Dxl966003>Number (current &amp; upper bound)</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td rowspan=3D2 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>Network Size</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl986003>Number of clients [7] [8]</td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl986003>Number (upper bound)</td>
+  <td class=3Dxl986003>Number (current &amp; upper bound)</td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl976003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl756003>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl776003>&nbsp;</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td rowspan=3D2 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>Performance</td>
+  <td class=3Dxl966003>Confirmation latency [1] [2]<font class=3D"font56003=
+"> [4]</font><font
+  class=3D"font66003"> [6] [7] [8] [10] [11] [12]</font></td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td class=3Dxl966003>Score</td>
+  <td class=3Dxl966003>Sec (fixed)</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td rowspan=3D2 class=3Dxl1056003 style=3D'border-bottom:.5pt solid black=
+'>Performance</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl986003>Throughput [1] [2]<font class=3D"font56003"> [4]</fo=
+nt><font
+  class=3D"font66003"> [6] [7] [8] [9] [10] [11] [12]</font></td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl986003>Score</td>
+  <td class=3Dxl986003>Tx/s (average &amp; upper bound)</td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl976003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl756003>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl776003>&nbsp;</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D42 style=3D'mso-height-source:userset;height=
+:31.8pt'>
+  <td height=3D42 class=3Dxl976003 style=3D'height:31.8pt'></td>
+  <td rowspan=3D6 class=3Dxl1136003>Networking</td>
+  <td rowspan=3D2 class=3Dxl966003>Communication model [1] [2] [3] [8] [11]=
+</td>
+  <td class=3Dxl966003>Safety</td>
+  <td colspan=3D2 class=3Dxl966003>Async / (eventual) sync</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td rowspan=3D6 class=3Dxl1136003>Networking</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D37 style=3D'mso-height-source:userset;height=
+:27.6pt'>
+  <td height=3D37 class=3Dxl976003 style=3D'height:27.6pt'></td>
+  <td class=3Dxl686003>Liveness</td>
+  <td colspan=3D2 class=3Dxl686003>Async / (eventual) sync</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D30 style=3D'mso-height-source:userset;height=
+:22.2pt'>
+  <td height=3D30 class=3Dxl976003 style=3D'height:22.2pt'></td>
+  <td class=3Dxl686003>Communication complexity [1] [2] [4] [11] [12]</td>
+  <td class=3Dxl686003></td>
+  <td colspan=3D2 class=3Dxl686003>Landau notation</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D30 style=3D'mso-height-source:userset;height=
+:22.2pt'>
+  <td height=3D30 class=3Dxl976003 style=3D'height:22.2pt'></td>
+  <td class=3Dxl686003>Dissemination [2] [11] [12]</td>
+  <td class=3Dxl686003></td>
+  <td colspan=3D2 class=3Dxl686003>Gossip - flooding - hybrid flooding</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D30 style=3D'mso-height-source:userset;height=
+:22.2pt'>
+  <td height=3D30 class=3Dxl976003 style=3D'height:22.2pt'></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003>Mb/s (lower bound)</td>
+  <td class=3Dxl676003><font class=3D"font66003">Node bandwidth </font><font
+  class=3D"font56003">[5]</font><font class=3D"font66003"> [7] [10]</font><=
+/td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D30 style=3D'mso-height-source:userset;height=
+:22.2pt'>
+  <td height=3D30 class=3Dxl976003 style=3D'height:22.2pt'></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003>Score</td>
+  <td class=3Dxl686003>Bootstrap time [4]</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl976003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl886003>&nbsp;</td>
+  <td class=3Dxl766003>&nbsp;</td>
+  <td class=3Dxl766003>&nbsp;</td>
+  <td class=3Dxl766003>&nbsp;</td>
+  <td class=3Dxl766003>&nbsp;</td>
+  <td class=3Dxl766003>&nbsp;</td>
+  <td class=3Dxl956003>&nbsp;</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td rowspan=3D5 class=3Dxl1056003 style=3D'border-bottom:.5pt solid black;
+  border-top:none'>Storage</td>
+  <td class=3Dxl966003>Transaction size [4] [7] [12]</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td class=3Dxl966003>Score</td>
+  <td class=3Dxl966003>KB (average &amp; upper bound)</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td rowspan=3D5 class=3Dxl1056003 style=3D'border-bottom:.5pt solid black;
+  border-top:none'>Storage</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl686003>Block size [4] [6] [8] [10] [11] [12]</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003>Score</td>
+  <td class=3Dxl686003>MB (average &amp; upper bound)</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl686003>Block interval [1] [4] [6] [8] [11] [12]</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003>Sec (lower bound)</td>
+  <td class=3Dxl686003>Sec (average)</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl906003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003>/</td>
+  <td class=3Dxl1126003>MB/day (average &amp; upper bound)</td>
+  <td class=3Dxl686003>Chain growth [4] [12]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl906003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl986003>/</td>
+  <td class=3Dxl986003>MB (average)</td>
+  <td class=3Dxl986003>Memory usage [12]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl976003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl756003>&nbsp;</td>
+  <td class=3Dxl916003>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl776003>&nbsp;</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td rowspan=3D6 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>Safety &amp; Security</td>
+  <td rowspan=3D2 class=3Dxl966003>Failure Model [2] [3]</td>
+  <td class=3Dxl966003>Fault Tolerance [1] [3] [7] [11]</td>
+  <td colspan=3D2 class=3Dxl966003>Faulty nodes / all nodes</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td rowspan=3D6 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>Safety &amp; Security</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D42 style=3D'mso-height-source:userset;height=
+:31.8pt'>
+  <td height=3D42 class=3Dxl976003 style=3D'height:31.8pt'></td>
+  <td class=3Dxl996003 width=3D244 style=3D'width:183pt'>Byzantine Fault To=
+lerance
+  [1] [2] [3] [7] [8] [9] [10] [11] [12]</td>
+  <td colspan=3D2 class=3Dxl686003>Number of votes or computation power / a=
+ll votes
+  or power</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl686003>Transaction finality [2] [8] [10] [11] [12]</td>
+  <td class=3Dxl686003></td>
+  <td colspan=3D2 class=3Dxl686003>Probabilistic OR deterministic</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl976003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl686003>Attack Vectors [6] [10] [11]</td>
+  <td class=3Dxl686003></td>
+  <td colspan=3D2 class=3Dxl686003>Array</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl736003 style=3D'border-left:none'>&nbsp;</td>
+  <td class=3Dxl686003></td>
+  <td colspan=3D2 class=3Dxl686003>Score</td>
+  <td class=3Dxl686003>Censorship Resistance [1] [2] [11]</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td colspan=3D2 class=3Dxl686003>Score</td>
+  <td class=3Dxl686003>DoS resistance [1]<span style=3D'mso-spacerun:yes'> =
+</span></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl976003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl756003>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003>&nbsp;</td>
+  <td class=3Dxl946003>&nbsp;</td>
+  <td class=3Dxl766003>&nbsp;</td>
+  <td class=3Dxl776003>&nbsp;</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td rowspan=3D3 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>CAP<br>
+    Theorem</td>
+  <td class=3Dxl966003>Consistency [1] [9] [10]</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td colspan=3D2 class=3Dxl966003>Bool OR explanation</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td rowspan=3D3 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>CAP<br>
+    Theorem</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl686003>Availability [13]</td>
+  <td class=3Dxl686003></td>
+  <td colspan=3D2 class=3Dxl686003>Bool OR explanation</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl646003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl976003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl986003>Partition tolerance [13]</td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td colspan=3D2 class=3Dxl986003>Bool OR explanation</td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+  <td class=3Dxl646003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl906003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl756003>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl776003>&nbsp;</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl906003 style=3D'height:18.0pt'></td>
+  <td rowspan=3D3 class=3Dxl1056003 style=3D'border-bottom:.5pt solid black=
+'>Transparency</td>
+  <td class=3Dxl966003>Published code [1] [2] [9] [12]</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td class=3Dxl966003>Bool</td>
+  <td class=3Dxl966003>Address</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td rowspan=3D3 class=3Dxl1056003 style=3D'border-bottom:.5pt solid black=
+'>Transparency</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl936003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl686003>Open source [9]</td>
+  <td class=3Dxl686003></td>
+  <td colspan=3D2 class=3Dxl686003>Bool</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl936003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl986003>/</td>
+  <td class=3Dxl986003>Bool</td>
+  <td class=3Dxl986003>Live Setup [1] [10] [12]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl936003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl756003>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl776003>&nbsp;</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl936003 style=3D'height:18.0pt'></td>
+  <td rowspan=3D3 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>Blockchain Type</td>
+  <td class=3Dxl966003>Permissionless [1] [2] [3] [4] [8] [10] [11] [12]</t=
+d>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td class=3Dxl966003>Bool</td>
+  <td rowspan=3D3 class=3Dxl1086003 width=3D244 style=3D'border-bottom:.5pt=
+ solid black;
+  width:183pt'>Type</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td rowspan=3D3 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>Blockchain Type</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl936003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl686003>Permissioned [1] [2] [3] [8] [9] [10] [11] [12]</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003>Bool</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl906003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl986003>Hybrid [1] [2] [10] [11]</td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl986003>Bool</td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl906003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl756003>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl796003 width=3D244 style=3D'border-top:none;width:183pt'>&n=
+bsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl776003>&nbsp;</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D43 style=3D'mso-height-source:userset;height=
+:32.4pt'>
+  <td height=3D43 class=3Dxl906003 style=3D'height:32.4pt'></td>
+  <td rowspan=3D3 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>Scientific Relevance</td>
+  <td class=3Dxl966003>Citations* [13]</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td colspan=3D2 class=3Dxl1086003 width=3D488 style=3D'width:366pt'>IEEE:=
+ number of
+  citations<br>
+    ACM: number of citations</td>
+  <td class=3Dxl966003>&nbsp;</td>
+  <td rowspan=3D3 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>Scientific Relevance</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl906003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl686003>Search string [13]</td>
+  <td class=3Dxl686003></td>
+  <td colspan=3D2 class=3Dxl686003>String</td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl906003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl1106003>Main paper [10] [12] [13]</td>
+  <td class=3Dxl986003>&nbsp;</td>
+  <td colspan=3D2 class=3Dxl986003>DOI or website link</td>
+  <td class=3Dxl1106003>Main paper [1]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl906003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl976003></td>
+  <td class=3Dxl966003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl966003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl966003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl806003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl776003>&nbsp;</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl906003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl976003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl696003 width=3D244 style=3D'width:183pt'>Divers</td>
+  <td class=3Dxl966003>Consensus Protocol [1] [2] [10] [12]</td>
+  <td rowspan=3D4 class=3Dxl1056003 style=3D'border-bottom:.5pt solid black=
+'>General</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl906003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl976003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl706003 width=3D244 style=3D'width:183pt'>Divers</td>
+  <td class=3Dxl866003>Aim/Scope [2] [10] [11]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl906003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl976003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl706003 width=3D244 style=3D'width:183pt'>Join (bool) &amp;
+  Participate (bool)</td>
+  <td class=3Dxl686003>Incentives [1] [6] [10] [11]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D24 style=3D'mso-height-source:userset;height=
+:18.0pt'>
+  <td height=3D24 class=3Dxl906003 style=3D'height:18.0pt'></td>
+  <td class=3Dxl976003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl716003 width=3D244 style=3D'width:183pt'>Small - medium - l=
+arge -
+  very large</td>
+  <td class=3Dxl986003>Community size [13]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl906003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl806003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl776003>&nbsp;</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl726003>Foundation, developer, academics</td>
+  <td class=3Dxl966003>Backing foundation(s) [2] [9]</td>
+  <td rowspan=3D5 class=3Dxl1006003 width=3D121 style=3D'border-bottom:.5pt=
+ solid black;
+  width:91pt'>Governance</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl736003>Execute-order-validate OR …</td>
+  <td class=3Dxl1116003><font class=3D"font76003">Architecture</font><font
+  class=3D"font86003"> [2] [9]</font></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl736003>String</td>
+  <td class=3Dxl686003>Senders-receivers [2] [9]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl736003>String</td>
+  <td class=3Dxl686003>Leaders [1] <font class=3D"font56003">[2]</font><font
+  class=3D"font66003"> [9] [10]</font></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl746003>String</td>
+  <td class=3Dxl986003>Validators [1]<font class=3D"font56003"> [2]</font><=
+font
+  class=3D"font66003"> [9]</font></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D16 style=3D'mso-height-source:userset;height=
+:12.0pt'>
+  <td height=3D16 class=3Dxl906003 style=3D'height:12.0pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl806003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl766003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl896003 style=3D'border-top:none'>&nbsp;</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl726003>Score</td>
+  <td class=3Dxl856003>Energy Saving [2] [8] [10] [11]</td>
+  <td rowspan=3D6 class=3Dxl1066003 style=3D'border-bottom:.5pt solid black=
+'>Features</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl736003>Bool OR programming languages</td>
+  <td class=3Dxl866003>Smart contract [1] [2] [8] [9]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl736003>Array</td>
+  <td class=3Dxl866003>Smart contract execution [2]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl736003>Bool OR explanation</td>
+  <td class=3Dxl866003>Confidential transactions [1] [9] [10]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl736003>Symbol OR bool</td>
+  <td class=3Dxl866003>Token [2] [3] [9]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl746003>String</td>
+  <td class=3Dxl876003>Data model [2]</td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl976003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl656003 height=3D42 style=3D'mso-height-source:userset;height=
+:31.8pt'>
+  <td height=3D42 class=3Dxl906003 style=3D'height:31.8pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl976003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl976003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl976003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl976003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl976003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <tr class=3Dxl976003 height=3D25 style=3D'mso-height-source:userset;height=
+:18.6pt'>
+  <td height=3D25 class=3Dxl906003 style=3D'height:18.6pt'></td>
+  <td class=3Dxl676003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl686003></td>
+  <td class=3Dxl976003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+  <td class=3Dxl656003></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D83 style=3D'width:62pt'></td>
+  <td width=3D121 style=3D'width:91pt'></td>
+  <td width=3D480 style=3D'width:360pt'></td>
+  <td width=3D244 style=3D'width:183pt'></td>
+  <td width=3D244 style=3D'width:183pt'></td>
+  <td width=3D244 style=3D'width:183pt'></td>
+  <td width=3D284 style=3D'width:213pt'></td>
+  <td width=3D121 style=3D'width:91pt'></td>
+  <td width=3D92 style=3D'width:69pt'></td>
+  <td width=3D92 style=3D'width:69pt'></td>
+  <td width=3D92 style=3D'width:69pt'></td>
+  <td width=3D92 style=3D'width:69pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
+</html>
