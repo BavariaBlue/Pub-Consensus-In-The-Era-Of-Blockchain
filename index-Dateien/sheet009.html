@@ -1,0 +1,950 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File href="../index.html">
+<link rel=File-List href=filelist.xml>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:"\.";}
+@page
+	{margin:.79in .7in .79in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(8);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../index.html");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link="#0563C1" vlink="#954F72" class=xl78>
+
+<table border=0 cellpadding=0 cellspacing=0 width=3586 style='border-collapse:
+ collapse;table-layout:fixed;width:2697pt'>
+ <col class=xl78 width=250 style='mso-width-source:userset;mso-width-alt:8874;
+ width:187pt'>
+ <col class=xl78 width=166 span=7 style='mso-width-source:userset;mso-width-alt:
+ 5916;width:125pt'>
+ <col class=xl78 width=174 span=2 style='mso-width-source:userset;mso-width-alt:
+ 6172;width:130pt'>
+ <col class=xl78 width=166 span=11 style='mso-width-source:userset;mso-width-alt:
+ 5916;width:125pt'>
+ <col class=xl78 width=360 style='mso-width-source:userset;mso-width-alt:12800;
+ width:270pt'>
+ <tr class=xl102 height=53 style='mso-height-source:userset;height:40.05pt'>
+  <td height=53 class=xl86 width=250 style='height:40.05pt;width:187pt'>&nbsp;</td>
+  <td colspan=7 class=xl266 width=1162 style='border-right:.5pt solid black;
+  border-left:none;width:875pt'>Robustness</td>
+  <td colspan=2 class=xl266 width=348 style='border-right:.5pt solid black;
+  border-left:none;width:260pt'>Scalability</td>
+  <td colspan=3 class=xl266 width=498 style='border-right:.5pt solid black;
+  border-left:none;width:375pt'>Performance</td>
+  <td colspan=6 class=xl266 width=996 style='border-right:.5pt solid black;
+  border-left:none;width:750pt'>Security Goals</td>
+  <td class=xl104 width=166 style='border-left:none;width:125pt'>Timing</td>
+  <td class=xl103 width=166 style='width:125pt'>References</td>
+ </tr>
+ <tr class=xl96 height=40 style='mso-height-source:userset;height:30.0pt'>
+  <td height=40 class=xl101 style='height:30.0pt'>&nbsp;</td>
+  <td colspan=3 class=xl100 style='border-right:.5pt solid black;border-left:
+  none'>Fault-Tolerance</td>
+  <td colspan=2 class=xl100 style='border-right:.5pt solid black;border-left:
+  none'>Fault-Detection<span style='mso-spacerun:yes'> </span></td>
+  <td colspan=2 class=xl100 style='border-right:.5pt solid black;border-left:
+  none'>Fault-Reaction</td>
+  <td class=xl97>Numbers of nodes</td>
+  <td class=xl97>Numbers of clients</td>
+  <td class=xl100 style='border-left:none'>Tx/s</td>
+  <td class=xl99>Latency</td>
+  <td class=xl97>Waiting periods</td>
+  <td class=xl99>Confidentiality</td>
+  <td class=xl99>Integrity</td>
+  <td class=xl99>Authenticity</td>
+  <td class=xl99>Non-repudiation</td>
+  <td class=xl99>Availability</td>
+  <td class=xl97>Privacy</td>
+  <td class=xl98 width=166 style='width:125pt'>Network synchrony assumptions</td>
+  <td class=xl97>&nbsp;</td>
+ </tr>
+ <tr class=xl90 height=33 style='mso-height-source:userset;height:25.05pt'>
+  <td height=33 class=xl95 style='height:25.05pt'>&nbsp;</td>
+  <td class=xl94 style='border-left:none'>Crash tolerance</td>
+  <td colspan=2 class=xl92 style='border-right:.5pt solid black'>Byzantine
+  tolerance</td>
+  <td class=xl94 style='border-left:none'>Crash related</td>
+  <td class=xl91>Byzantine related</td>
+  <td class=xl94 style='border-left:none'>Recovery</td>
+  <td class=xl91>Isolation</td>
+  <td class=xl91>&nbsp;</td>
+  <td class=xl91>&nbsp;</td>
+  <td class=xl93>&nbsp;</td>
+  <td class=xl92>&nbsp;</td>
+  <td class=xl91>&nbsp;</td>
+  <td class=xl92>&nbsp;</td>
+  <td class=xl92>&nbsp;</td>
+  <td class=xl92>&nbsp;</td>
+  <td class=xl92>&nbsp;</td>
+  <td class=xl92>&nbsp;</td>
+  <td class=xl91>&nbsp;</td>
+  <td class=xl91>&nbsp;</td>
+  <td class=xl91>&nbsp;</td>
+ </tr>
+ <tr class=xl79 height=28 style='mso-height-source:userset;height:21.0pt'>
+  <td height=28 class=xl84 style='height:21.0pt'>&nbsp;</td>
+  <td class=xl88 style='border-left:none'>Thresholds</td>
+  <td class=xl89>Incentivizing</td>
+  <td class=xl87>Thresholds</td>
+  <td class=xl88 style='border-left:none'>&nbsp;</td>
+  <td class=xl87>Intrusion Detection</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+ </tr>
+ <tr class=xl79 height=37 style='mso-height-source:userset;height:28.05pt'>
+  <td height=37 class=xl84 style='height:28.05pt'>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+ </tr>
+ <tr class=xl79 height=80 style='mso-height-source:userset;height:60.0pt'>
+  <td height=80 class=xl86 style='height:60.0pt'>Paxos</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl84>s</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+ </tr>
+ <tr class=xl79 height=80 style='mso-height-source:userset;height:60.0pt'>
+  <td height=80 class=xl86 style='height:60.0pt'>PBFT</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+ </tr>
+ <tr class=xl79 height=80 style='mso-height-source:userset;height:60.0pt'>
+  <td height=80 class=xl86 style='height:60.0pt'>Proof of X</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl85 style='border-left:none'>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+  <td class=xl84>&nbsp;</td>
+ </tr>
+ <tr class=xl79 height=80 style='mso-height-source:userset;height:60.0pt'>
+  <td height=80 class=xl79 style='height:60.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl81>&nbsp;</td>
+  <td class=xl80>&nbsp;</td>
+  <td class=xl83 style='border-left:none'>&nbsp;</td>
+  <td class=xl80>&nbsp;</td>
+  <td class=xl83 style='border-left:none'>&nbsp;</td>
+  <td class=xl80>&nbsp;</td>
+  <td class=xl80>&nbsp;</td>
+  <td class=xl83 style='border-left:none'>&nbsp;</td>
+  <td class=xl81>&nbsp;</td>
+  <td class=xl81>&nbsp;</td>
+  <td class=xl80>&nbsp;</td>
+  <td class=xl82 style='border-left:none'>&nbsp;</td>
+  <td class=xl81>&nbsp;</td>
+  <td class=xl81>&nbsp;</td>
+  <td class=xl81>&nbsp;</td>
+  <td class=xl81>&nbsp;</td>
+  <td class=xl80>&nbsp;</td>
+  <td class=xl80>&nbsp;</td>
+  <td class=xl80>&nbsp;</td>
+ </tr>
+ <tr class=xl79 height=21 style='height:15.6pt'>
+  <td height=21 class=xl79 style='height:15.6pt'></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+  <td class=xl79></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl79>Single-Fault</td>
+  <td class=xl79>Multiple Fault</td>
+  <td class=xl79></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl79>Special node</td>
+  <td class=xl79>Special nodes</td>
+  <td class=xl79>Normal nodes</td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl78 style='height:15.6pt'></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+  <td class=xl78></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=250 style='width:187pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=174 style='width:130pt'></td>
+  <td width=174 style='width:130pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+  <td width=166 style='width:125pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

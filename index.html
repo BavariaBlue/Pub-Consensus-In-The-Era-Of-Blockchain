@@ -16,20 +16,26 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="index-Dateien/sheet004.html">
 <link id="shLink" href="index-Dateien/sheet005.html">
 <link id="shLink" href="index-Dateien/sheet006.html">
+<link id="shLink" href="index-Dateien/sheet007.html">
+<link id="shLink" href="index-Dateien/sheet008.html">
+<link id="shLink" href="index-Dateien/sheet009.html">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=6;
+ var c_lTabs=9;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Quality Metrics";
- c_rgszSh[1] = "References_QM";
- c_rgszSh[2] = "ProtocolsANDImplementations";
- c_rgszSh[3] = "Quality Metrics CP";
- c_rgszSh[4] = "OldQM_Impl";
- c_rgszSh[5] = "OLDComparison";
+ c_rgszSh[0] = "01_Categorization";
+ c_rgszSh[1] = "02_Quality Metrics";
+ c_rgszSh[2] = "03_Comparison";
+ c_rgszSh[3] = "04_References";
+ c_rgszSh[4] = "CategorizationEnh";
+ c_rgszSh[5] = "OLD_Comparison";
+ c_rgszSh[6] = "OLD_QM_CP";
+ c_rgszSh[7] = "OLD_QM_Impl";
+ c_rgszSh[8] = "Brainstorm";
 
 
 
@@ -59,7 +65,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[3].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -307,36 +313,49 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>Quality Metrics</x:Name>
+    <x:Name>01_Categorization</x:Name>
     <x:WorksheetSource HRef="index-Dateien/sheet001.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>References_QM</x:Name>
+    <x:Name>02_Quality Metrics</x:Name>
     <x:WorksheetSource HRef="index-Dateien/sheet002.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>ProtocolsANDImplementations</x:Name>
+    <x:Name>03_Comparison</x:Name>
     <x:WorksheetSource HRef="index-Dateien/sheet003.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>Quality Metrics CP</x:Name>
+    <x:Name>04_References</x:Name>
     <x:WorksheetSource HRef="index-Dateien/sheet004.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>OldQM_Impl</x:Name>
+    <x:Name>CategorizationEnh</x:Name>
     <x:WorksheetSource HRef="index-Dateien/sheet005.html"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>OLDComparison</x:Name>
+    <x:Name>OLD_Comparison</x:Name>
     <x:WorksheetSource HRef="index-Dateien/sheet006.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>OLD_QM_CP</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet007.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>OLD_QM_Impl</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet008.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Brainstorm</x:Name>
+    <x:WorksheetSource HRef="index-Dateien/sheet009.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index-Dateien/stylesheet.css"/>
-  <x:WindowHeight>9780</x:WindowHeight>
-  <x:WindowWidth>23040</x:WindowWidth>
+  <x:WindowHeight>15540</x:WindowHeight>
+  <x:WindowWidth>25596</x:WindowWidth>
   <x:WindowTopX>0</x:WindowTopX>
-  <x:WindowTopY>0</x:WindowTopY>
-  <x:ActiveSheet>1</x:ActiveSheet>
+  <x:WindowTopY>1200</x:WindowTopY>
+  <x:ActiveSheet>3</x:ActiveSheet>
+  <x:HidePivotTableFieldList/>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -344,7 +363,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index-Dateien/sheet002.html" name="frSheet">
+ <frame src="index-Dateien/sheet004.html" name="frSheet">
  <frame src="index-Dateien/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
